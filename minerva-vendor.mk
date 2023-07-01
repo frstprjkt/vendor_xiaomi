@@ -331,6 +331,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/minerva/proprietary/vendor/lib/libbluetooth_audio_session_qti_2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti_2_1.so \
     vendor/xiaomi/minerva/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/xiaomi/minerva/proprietary/vendor/lib/libcapiv2svacnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svacnn.so \
+    vendor/xiaomi/minerva/proprietary/vendor/lib/libcapiv2svarnn.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2svarnn.so \
     vendor/xiaomi/minerva/proprietary/vendor/lib/libcapiv2vop.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcapiv2vop.so \
     vendor/xiaomi/minerva/proprietary/vendor/lib/libcdfw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw.so \
     vendor/xiaomi/minerva/proprietary/vendor/lib/libcdfw_remote_api.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdfw_remote_api.so \
