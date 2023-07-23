@@ -7,7 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/citrus/proprietary/vendor/bin/f2player:$(TARGET_COPY_OUT_VENDOR)/bin/f2player \
-    vendor/xiaomi/citrus/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
+    vendor/xiaomi/citrus/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.minerva:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.minerva \
     vendor/xiaomi/citrus/proprietary/vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service \
     vendor/xiaomi/citrus/proprietary/vendor/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.silead.hardware.fingerprintext@1.0-service \
     vendor/xiaomi/citrus/proprietary/vendor/bin/init.qcom.sensors.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.qcom.sensors.sh \
@@ -94,7 +94,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/citrus/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/xiaomi/citrus/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/citrus/proprietary/vendor/etc/display/advanced_sf_offsets.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/advanced_sf_offsets.xml \
-    vendor/xiaomi/citrus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
+    vendor/xiaomi/citrus/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.minerva.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.minerva.rc \
     vendor/xiaomi/citrus/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
     vendor/xiaomi/citrus/proprietary/vendor/etc/init/init_thermal-engine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init_thermal-engine.rc \
     vendor/xiaomi/citrus/proprietary/vendor/etc/init/qdcmss.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qdcmss.rc \
